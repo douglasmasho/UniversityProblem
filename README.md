@@ -1,0 +1,2 @@
+# UniversityProblem
+A certain university wants to create a system to have the record of the performance of each student  on their respective courses. The student can be of two types: Full time or part time. For all the  students the university knows the full name, student number, academic year and the marks of each  module that the student already passed. For the part time students, the university also knows the  company that they work for. 
