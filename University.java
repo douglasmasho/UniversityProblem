@@ -15,7 +15,7 @@ public class University {
 		students.add(new PartTimeStudent(newFN,newSN, newAcademicYear, newModules, CompanyName));
     }
 	
-	public String getHighestAverage() {
+	public String getHighestAverageStudent() {
 		String BestStudent = students.get(0).getFullName() + " " + students.get(0).getStudentNumber();
 		double BestStudentMark = students.get(0).getAverage();		
 		for(int i = 0; i < students.size(); i++) {

@@ -11,6 +11,6 @@ public class Main {
 		Sigma_Academy.AddStudent("Drake Bell", "219015032", 2022, new ArrayList<Module>(List.of(new Module("Object Oriented Programming 2", 85.0),new Module("Advanced Databases", 90.0))), "Obsidian Technologies");
 		Sigma_Academy.AddStudent("Josh Peck", "219029021", 2022, new ArrayList<Module>(List.of(new Module("Object Oriented Programming 2", 72.0), new Module("Advanced Databases", 85.0))), "Aperture Industries");
 		
-		System.out.println(Sigma_Academy.getHighestAverage());
+		System.out.println(Sigma_Academy.getHighestAverageStudent());
 	}
 }
